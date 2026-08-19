@@ -12,21 +12,20 @@ import EtapaFinal from '@site/src/components/garantia/etapa-final/EtapaFinal';
 O acionamento de garantia tem início quando o cliente entra em contato diretamente com o **Canal de Garantia** (<code>{contatos.garantia}</code>).
 
 ---
+<ExpandAllControls />
 
 ## Etapas Iniciais Comuns (Passos 1 e 2)
 
 Todas as solicitações de garantia passam obrigatoriamente pelas duas etapas iniciais abaixo:
 
-<ExpandAllControls />
-
-<DocAccordion title="1. Envio do Documento 'Requisito para Acolhimento'" stepNumber="01" id="gar-etapa-1" defaultOpen={true}>
+<DocAccordion title="1. Envio do Documento 'Requisito para Acolhimento'" stepNumber="01" id="gar-etapa-1" defaultOpen={false}>
 
 * **Responsável**: Atendimento (Setor de Garantia: <code>{contatos.garantia}</code>).
 * **Procedimento**: O atendimento deverá encaminhar ao cliente o documento de **"requisito para acolhimento"**.
 
 </DocAccordion>
 
-<DocAccordion title="2. Preenchimento e Devolução pelo Cliente" stepNumber="02" id="gar-etapa-2" defaultOpen={true}>
+<DocAccordion title="2. Preenchimento e Devolução pelo Cliente" stepNumber="02" id="gar-etapa-2" defaultOpen={false}>
 
 * **Responsável**: Cliente.
 * **Procedimento**: O cliente deverá preencher o documento (com dados da compra e do defeito) e encaminhar ao canal de garantia.
