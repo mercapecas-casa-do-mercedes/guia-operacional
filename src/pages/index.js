@@ -8,8 +8,8 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title="Guia"
-      description="Manual de Processos Operacionais, Garantia e Devolução da Mercapeças"
+      title="Início"
+      description="Manual de Processos Operacionais da Mercapeças"
     >
       <header className={styles.heroHeader}>
         <div className="container">
@@ -30,7 +30,7 @@ export default function Home() {
       <main className={styles.mainContent}>
         <div className="container">
           <h2 className={styles.sectionHeader}>Acesso Rápido aos Procedimentos Operacionais</h2>
-          
+
           <div className={styles.cardGrid}>
             <Link to="/docs/garantia" className={styles.card}>
               <div className={styles.cardIcon}>🛡️</div>

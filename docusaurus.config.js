@@ -3,7 +3,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Mercapeças — Guia',
+  title: 'Guia Mercapeças',
   tagline: 'Manual Operacional de Processos, Garantia e Devolução',
   favicon: 'img/favicon-48x48.png',
 
@@ -67,7 +67,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'MERCAPEÇAS | Guia',
+        title: 'Guia Mercapeças',
         logo: {
           alt: 'Mercapeças Logo',
           src: 'img/favicon-48x48.png',
