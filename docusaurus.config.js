@@ -4,7 +4,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Guia Mercapeças',
-  tagline: 'Manual Operacional de Processos, Garantia e Devolução',
+  tagline: 'Manual Operacional de Processos',
   favicon: 'img/favicon-48x48.png',
 
   url: 'http://localhost',
@@ -74,22 +74,26 @@ const config = {
         },
         items: [
           {
-            to: '/docs/garantia',
+            type: 'docSidebar',
+            sidebarId: 'garantiaSidebar',
             label: 'Garantia',
             position: 'left',
           },
           {
-            to: '/docs/devolucao',
+            type: 'docSidebar',
+            sidebarId: 'devolucaoSidebar',
             label: 'Devolução',
             position: 'left',
           },
           {
-            to: '/docs/glossario',
+            type: 'docSidebar',
+            sidebarId: 'glossarioSidebar',
             label: 'Glossário',
             position: 'left',
           },
           {
-            to: '/docs/canais-de-comunicacao',
+            type: 'docSidebar',
+            sidebarId: 'canaisSidebar',
             label: 'Canais de Contato',
             position: 'left',
           },

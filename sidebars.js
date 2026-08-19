@@ -2,17 +2,11 @@
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
-  tutorialSidebar: [
-    {
-      type: 'doc',
-      id: 'index',
-      label: '🏠 Visão Geral da Central',
-    },
+  garantiaSidebar: [
     {
       type: 'category',
       label: '🛡️ Garantia',
-      collapsible: true,
-      collapsed: false,
+      collapsible: false,
       items: [
         {
           type: 'doc',
@@ -44,11 +38,12 @@ const sidebars = {
         },
       ],
     },
+  ],
+  devolucaoSidebar: [
     {
       type: 'category',
       label: '🔄 Devolução',
-      collapsible: true,
-      collapsed: false,
+      collapsible: false,
       items: [
         {
           type: 'doc',
@@ -80,11 +75,15 @@ const sidebars = {
         },
       ],
     },
+  ],
+  glossarioSidebar: [
     {
       type: 'doc',
       id: 'glossario/index',
       label: '📖 Glossário (A-Z)',
     },
+  ],
+  canaisSidebar: [
     {
       type: 'doc',
       id: 'canais-de-comunicacao/index',

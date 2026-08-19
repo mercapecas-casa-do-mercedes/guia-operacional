@@ -18,7 +18,7 @@ export default function Home() {
           <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
           <div className={styles.heroButtons}>
             <Link className={`${styles.btnPrimary}`} to="/docs">
-              🚀 Acessar Guia Completo
+              🚀 Comece Aqui
             </Link>
             <Link className={`${styles.btnSecondary}`} to="/docs/canais-de-comunicacao">
               📞 Canais de Contato
