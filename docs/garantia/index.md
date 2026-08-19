@@ -1,0 +1,69 @@
+---
+id: index
+title: Visão Geral — Processo de Garantia
+sidebar_label: Visão Geral de Garantia
+---
+
+# Visão Geral — Processo de Garantia
+
+O acionamento de garantia tem início quando o cliente entra em contato diretamente com o **Canal de Garantia** (`(34) 9976-1464`).
+
+---
+
+## Etapas Iniciais Comuns (Passos 1 e 2)
+
+Todas as solicitações de garantia passam obrigatoriamente pelas duas etapas iniciais abaixo:
+
+<ExpandAllControls />
+
+<DocAccordion title="1. Envio do Documento 'Requisito para Acolhimento'" stepNumber="01" id="gar-etapa-1" defaultOpen={true}>
+
+* **Responsável**: Atendimento (Setor de Garantia: `(34) 9976-1464`).
+* **Procedimento**: O atendimento deverá encaminhar ao cliente o documento de **"requisito para acolhimento"**.
+
+</DocAccordion>
+
+<DocAccordion title="2. Preenchimento e Devolução pelo Cliente" stepNumber="02" id="gar-etapa-2" defaultOpen={true}>
+
+* **Responsável**: Cliente.
+* **Procedimento**: O cliente deverá preencher o documento (com dados da compra e do defeito) e encaminhar ao canal de garantia.
+
+</DocAccordion>
+
+---
+
+## Direcionamento por Perfil do Cliente (Passo 3)
+
+A partir da entrega do documento preenchido, selecione o fluxo correspondente:
+
+- [👤 **Garantia — Pessoa Física**](/docs/garantia/pessoa-fisica)
+- [🏢 **Garantia — Pessoa Jurídica (Consumidor Final)**](/docs/garantia/pessoa-juridica/consumidor-final)
+- [🏬 **Garantia — Pessoa Jurídica (Revendedor)**](/docs/garantia/pessoa-juridica/revendedor)
+
+---
+
+## Etapas Finais / Pós-Acolhimento (Passos 4 a 6)
+
+Após a conclusão das tratativas do Passo 3 em qualquer perfil, todos os processos de garantia seguem para a tramitação junto ao fornecedor:
+
+<DocAccordion title="4. Emissão de NFe para Envio ao Fornecedor" stepNumber="04" id="gar-etapa-4">
+
+* **Responsável**: Setor de Garantia.
+* **Procedimento**: O setor de garantia vai emitir uma nova NFe para o fornecedor para encaminhar a peça em garantia.
+
+</DocAccordion>
+
+<DocAccordion title="5. Análise e Resposta do Fornecedor" stepNumber="05" id="gar-etapa-5">
+
+* **Responsável**: Fornecedor.
+* **Procedimento**: Se o fornecedor aprovar: ele vai fornecer um crédito, ou uma nova peça.
+
+</DocAccordion>
+
+<DocAccordion title="6. Emissão da Devolução de Simples Remessa e Entrega da Peça" stepNumber="06" id="gar-etapa-6">
+
+* **Responsável**: Atendimento.
+* **Procedimento**: Nosso atendimento deverá emitir uma devolução da simples remessa ao cliente junto com uma peça nova.
+* **Observação de Exceção**: Caso o cliente já esteja com uma nova peça e não queira receber a nova peça que veio do fornecedor, entregamos assim mesmo a peça ao cliente, e seguiremos com o processo de devolução para a peça extra que está nas mãos do cliente.
+
+</DocAccordion>

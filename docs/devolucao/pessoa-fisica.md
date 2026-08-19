@@ -1,0 +1,33 @@
+---
+id: pessoa-fisica
+title: Devolução — Pessoa Física
+sidebar_label: Pessoa Física
+---
+
+# Processo de Devolução — Pessoa Física
+
+Fluxo específico para acionamento de devolução efetuado por clientes **Pessoa Física**.
+
+:::info Observação Importante
+Após encaminhar a **autorização do vendedor** ao atendimento geral, o cliente não terá mais nenhuma responsabilidade além de trazer a peça à loja física.
+:::
+
+---
+
+## Etapas do Processo
+
+<ExpandAllControls />
+
+<DocAccordion title="3.1 Solicitar Comparecimento à Loja Física" stepNumber="3.1" id="dev-pf-3-1" defaultOpen={true}>
+
+* **Responsável**: Atendimento Geral.
+* **Procedimento**: O atendimento deverá solicitar ao cliente que ele traga a **peça** à loja física.
+
+</DocAccordion>
+
+<DocAccordion title="3.2 Recebimento da Peça, Emissão de NFe e Geração de Crédito" stepNumber="3.2" id="dev-pf-3-2">
+
+* **Responsável**: Atendimento Geral.
+* **Procedimento**: Ao receber o cliente com a peça, o atendimento deverá emitir a **NFe de devolução** e gerar o crédito ao cliente.
+
+</DocAccordion>

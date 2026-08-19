@@ -1,0 +1,50 @@
+---
+id: revendedor
+title: Devolução — Pessoa Jurídica (Revendedor)
+sidebar_label: Revendedor
+---
+
+# Processo de Devolução — PJ (Revenda)
+
+Fluxo para acionamento de devolução por clientes **Pessoa Jurídica** enquadrados como **Revendedor**.
+
+---
+
+## Etapas do Processo
+
+<ExpandAllControls />
+
+<DocAccordion title="3.1.1 Solicitação do Espelho da NFe" stepNumber="3.1.1" id="dev-pj-rev-3-1-1" defaultOpen={true}>
+
+* **Responsável**: Atendimento Geral.
+* **Procedimento**: Quando o atendimento geral receber a **autorização do vendedor** que o cliente encaminhou, então deverá solicitar o **espelho da NFe de devolução**.
+
+</DocAccordion>
+
+<DocAccordion title="3.1.2 Envio do Espelho pelo Cliente para Aprovação" stepNumber="3.1.2" id="dev-pj-rev-3-1-2">
+
+* **Responsável**: Cliente.
+* **Procedimento**: Após isso, o cliente deverá enviar o **espelho** para o atendimento geral poder aprovar.
+
+</DocAccordion>
+
+<DocAccordion title="3.1.3 Comunicação da Aprovação do Espelho" stepNumber="3.1.3" id="dev-pj-rev-3-1-3">
+
+* **Responsável**: Atendimento Geral.
+* **Procedimento**: O atendimento deverá comunicar ao cliente caso o espelho tenha sido aprovado.
+
+</DocAccordion>
+
+<DocAccordion title="3.1.4 Transmissão da NFe e Entrega na Loja Física" stepNumber="3.1.4" id="dev-pj-rev-3-1-4">
+
+* **Responsável**: Cliente.
+* **Procedimento**: A partir da aprovação, o cliente deverá **transmitir** a NFe de devolução (enviar para a receita), e trazê-la para a loja física junto com a **peça**.
+
+</DocAccordion>
+
+<DocAccordion title="3.1.5 Entrada da NFe e Geração de Crédito" stepNumber="3.1.5" id="dev-pj-rev-3-1-5">
+
+* **Responsável**: Atendimento Geral.
+* **Procedimento**: Então, o atendimento deve dar entrada na **NFe de devolução**, gerando o crédito para o cliente.
+
+</DocAccordion>

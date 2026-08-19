@@ -1,0 +1,41 @@
+---
+id: index
+title: Visão Geral — Processo de Devolução
+sidebar_label: Visão Geral de Devolução
+---
+
+# Visão Geral — Processo de Devolução
+
+O processo de devolução inicia-se quando o cliente entra em contato com o **Canal de Vendas** solicitando a devolução de um produto.
+
+---
+
+## Etapas Iniciais Comuns (Passos 1 e 2)
+
+Todas as solicitações de devolução passam obrigatoriamente pelas duas etapas iniciais abaixo antes da divisão por natureza jurídica:
+
+<ExpandAllControls />
+
+<DocAccordion title="1. Análise e Emissão da Autorização do Vendedor" stepNumber="01" id="dev-etapa-1" defaultOpen={true}>
+
+* **Responsável**: Vendedor (Canal de Vendas: `(34) 3213-9266`).
+* **Procedimento**: O vendedor deverá analisar o pedido de devolução, e encaminhar o documento de **"autorização do vendedor"** ao cliente.
+
+</DocAccordion>
+
+<DocAccordion title="2. Envio ao Atendimento Geral pelo Cliente" stepNumber="02" id="dev-etapa-2" defaultOpen={true}>
+
+* **Responsável**: Cliente.
+* **Procedimento**: O cliente deverá encaminhar esse documento de autorização do vendedor ao **Canal de Atendimento Geral** (`(34) 9976-1464`).
+
+</DocAccordion>
+
+---
+
+## Direcionamento por Perfil do Cliente
+
+A partir do envio do documento ao atendimento geral, o fluxo se diferencia conforme a natureza jurídica do cliente:
+
+- [👤 **Devolução — Pessoa Física**](/docs/devolucao/pessoa-fisica)
+- [🏢 **Devolução — Pessoa Jurídica (Consumidor Final)**](/docs/devolucao/pessoa-juridica/consumidor-final)
+- [🏬 **Devolução — Pessoa Jurídica (Revendedor)**](/docs/devolucao/pessoa-juridica/revendedor)

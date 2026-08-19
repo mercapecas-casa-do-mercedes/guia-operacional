@@ -1,0 +1,82 @@
+/**
+ * Original Docusaurus Theme Palette
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --ifm-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --ifm-color-primary: #2542c2;
+  --ifm-color-primary-dark: #212faf;
+  --ifm-color-primary-darker: #1f43a5;
+  --ifm-color-primary-darkest: #1a3788;
+  --ifm-color-primary-light: #3751c7;
+  --ifm-color-primary-lighter: #4055ca;
+  --ifm-color-primary-lightest: #5c77d1;
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.05);
+}
+
+/* Dark Mode Overrides */
+[data-theme='dark'] {
+  --ifm-color-primary: #254fc2;
+  --ifm-color-primary-dark: #212faf;
+  --ifm-color-primary-darker: #1f43a5;
+  --ifm-color-primary-darkest: #1a3788;
+  --ifm-color-primary-light: #3751c7;
+  --ifm-color-primary-lighter: #4055ca;
+  --ifm-color-primary-lightest: #5c77d1;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Navbar Custom Styling */
+.navbar {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 0.6rem 1rem;
+}
+
+.navbar__brand {
+  margin-right: 1.5rem;
+}
+
+.navbar__logo {
+  height: 38px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.navbar__title {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.navbar__item {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+/* Sidebar Custom Styling */
+.theme-doc-sidebar-menu {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.menu__link--active {
+  font-weight: 700 !important;
+}
+
+/* Doc Content Area Styling */
+.markdown h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.markdown h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 1.8rem;
+  margin-bottom: 1rem;
+}

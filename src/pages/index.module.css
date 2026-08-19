@@ -1,0 +1,169 @@
+.heroHeader {
+  background: var(--ifm-color-primary);
+  color: #ffffff;
+  padding: 4rem 0 4.5rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+[data-theme='dark'] .heroHeader {
+  background: var(--ifm-background-surface-color);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.heroBadge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin-bottom: 1.2rem;
+  text-transform: uppercase;
+}
+
+.heroTitle {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 0.8rem;
+  color: #ffffff;
+  letter-spacing: -0.5px;
+}
+
+.heroSubtitle {
+  font-size: 1.2rem;
+  opacity: 0.95;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  font-weight: 400;
+}
+
+.heroButtons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.btnPrimary {
+  background: #ffffff;
+  color: var(--ifm-color-primary-darkest) !important;
+  font-weight: 700;
+  padding: 12px 26px;
+  border-radius: 8px;
+  text-decoration: none !important;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.btnPrimary:hover {
+  background: var(--ifm-color-emphasis-100);
+  transform: translateY(-2px);
+}
+
+.btnSecondary {
+  background: rgba(0, 0, 0, 0.15);
+  color: #ffffff !important;
+  font-weight: 600;
+  padding: 12px 26px;
+  border-radius: 8px;
+  text-decoration: none !important;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  transition: background-color 0.2s ease;
+}
+
+.btnSecondary:hover {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.mainContent {
+  padding: 3.5rem 0;
+}
+
+.sectionHeader {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin-bottom: 2.5rem;
+  color: var(--ifm-heading-color);
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-bottom: 3.5rem;
+}
+
+.card {
+  background: var(--ifm-card-background-color, #ffffff);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  padding: 24px;
+  text-decoration: none !important;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 8px 24px rgba(37, 194, 160, 0.15);
+}
+
+.cardIcon {
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+  margin-bottom: 8px;
+}
+
+.cardText {
+  font-size: 0.92rem;
+  color: var(--ifm-font-color-base);
+  opacity: 0.85;
+  line-height: 1.5;
+  flex: 1;
+  margin-bottom: 16px;
+}
+
+.cardLink {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+}
+
+.infoBanner {
+  background: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-left: 5px solid var(--ifm-color-primary);
+  border-radius: 10px;
+  padding: 20px 24px;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.infoBannerIcon {
+  font-size: 1.8rem;
+}
+
+.infoBannerTitle {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.infoBannerText {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}

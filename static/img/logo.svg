@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <circle cx="250" cy="250" r="240" fill="#000B58"/>
+  <path d="M 45,215 L 150,215 L 150,250 L 68,250 L 68,265 L 155,265 L 155,295 L 75,295 C 105,300 135,305 158,295 L 158,295 Z" fill="#E50914"/>
+  <path d="M 455,215 L 350,215 L 350,250 L 432,250 L 432,265 L 345,265 L 345,295 L 425,295 C 395,300 365,305 342,295 L 342,295 Z" fill="#E50914"/>
+  <circle cx="250" cy="250" r="105" fill="none" stroke="#FFFFFF" stroke-width="16"/>
+  <path d="M 200,325 L 235,170 L 250,250 L 265,170 L 300,325 L 285,325 L 273,205 L 250,330 L 227,205 L 215,325 Z" fill="#FFFFFF"/>
+  <path id="top-arc" d="M 70,250 A 180,180 0 0,1 430,250" fill="none"/>
+  <path id="bottom-arc" d="M 70,250 A 180,180 0 0,0 430,250" fill="none"/>
+  <text font-family="'Inter', 'Arial Black', sans-serif" font-weight="900" font-size="34" fill="#FFFFFF" letter-spacing="3.5">
+    <textPath href="#top-arc" startOffset="50%" text-anchor="middle">MERCAPECAS</textPath>
+  </text>
+  <text font-family="'Inter', 'Arial Black', sans-serif" font-weight="900" font-size="28" fill="#FFFFFF" letter-spacing="2.5">
+    <textPath href="#bottom-arc" startOffset="50%" text-anchor="middle">CASA DO MERCEDES</textPath>
+  </text>
+</svg>
