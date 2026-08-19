@@ -1,6 +1,6 @@
-# Central de Documentação Interna — Mercapeças
+# Guia — Mercapeças
 
-Sistema completo de **documentação interna da empresa utilizando Docusaurus**, desenvolvido para consulta rápida e gerenciamento de procedimentos operacionais de **Garantia** e **Devolução**.
+Sistema completo de **guia da empresa utilizando Docusaurus**, desenvolvido para consulta rápida e gerenciamento de procedimentos operacionais de **Garantia** e **Devolução**.
 
 ---
 
@@ -26,7 +26,7 @@ npm install
 ```
 
 ### 3. Executar em Modo de Desenvolvimento
-Para iniciar a documentação localmente com recarregamento em tempo real:
+Para iniciar o guia localmente com recarregamento em tempo real:
 ```bash
 npm start
 ```
@@ -55,7 +55,7 @@ npm run serve
 
 ```text
 /
-├── docs/                        # Arquivos de documentação em Markdown / MDX
+├── docs/                        # Arquivos do guia em Markdown / MDX
 │   ├── index.md                 # Visão geral da central
 │   ├── garantia/                # Manuais de Garantia
 │   │   ├── index.md
@@ -94,7 +94,7 @@ npm run serve
 ## 📝 Guia de Manutenção e Edição
 
 ### 1. Onde ficam os documentos?
-Todos os documentos pertencem à pasta **`docs/`**. Cada arquivo `.md` representa uma página da documentação.
+Todos os documentos pertencem à pasta **`docs/`**. Cada arquivo `.md` representa uma página do guia.
 
 ### 2. Onde ficam as imagens?
 As imagens devem ser salvas na pasta **`static/img/`** (ex: `static/img/garantia/tela-solicitacao.png`).

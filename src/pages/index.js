@@ -8,17 +8,17 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title="Central de Documentação Interna"
+      title="Guia"
       description="Manual de Processos Operacionais, Garantia e Devolução da Mercapeças"
     >
       <header className={styles.heroHeader}>
         <div className="container">
-          <div className={styles.heroBadge}>DOCUMENTAÇÃO INTERNA OFICIAL</div>
+          <div className={styles.heroBadge}>GUIA OFICIAL</div>
           <h1 className={styles.heroTitle}>{siteConfig.title}</h1>
           <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
           <div className={styles.heroButtons}>
             <Link className={`${styles.btnPrimary}`} to="/docs">
-              🚀 Acessar Documentação Completa
+              🚀 Acessar Guia Completo
             </Link>
             <Link className={`${styles.btnSecondary}`} to="/docs/canais-de-comunicacao">
               📞 Canais de Contato

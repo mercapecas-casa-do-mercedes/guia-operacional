@@ -4,6 +4,8 @@ title: Visão Geral — Processo de Devolução
 sidebar_label: Visão Geral de Devolução
 ---
 
+import contatos from '@site/utils/contatos.json';
+
 # Visão Geral — Processo de Devolução
 
 O processo de devolução inicia-se quando o cliente entra em contato com o **Canal de Vendas** solicitando a devolução de um produto.
@@ -18,7 +20,7 @@ Todas as solicitações de devolução passam obrigatoriamente pelas duas etapas
 
 <DocAccordion title="1. Análise e Emissão da Autorização do Vendedor" stepNumber="01" id="dev-etapa-1" defaultOpen={true}>
 
-* **Responsável**: Vendedor (Canal de Vendas: `(34) 3213-9266`).
+* **Responsável**: Vendedor (Canal de Vendas: <code>{contatos.vendas}</code>).
 * **Procedimento**: O vendedor deverá analisar o pedido de devolução, e encaminhar o documento de **"autorização do vendedor"** ao cliente.
 
 </DocAccordion>
@@ -26,7 +28,7 @@ Todas as solicitações de devolução passam obrigatoriamente pelas duas etapas
 <DocAccordion title="2. Envio ao Atendimento Geral pelo Cliente" stepNumber="02" id="dev-etapa-2" defaultOpen={true}>
 
 * **Responsável**: Cliente.
-* **Procedimento**: O cliente deverá encaminhar esse documento de autorização do vendedor ao **Canal de Atendimento Geral** (`(34) 9976-1464`).
+* **Procedimento**: O cliente deverá encaminhar esse documento de autorização do vendedor ao **Canal de Atendimento Geral** (<code>{contatos.atendimento}</code>).
 
 </DocAccordion>
 

@@ -3,15 +3,15 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Mercapeças — Central de Documentação Interna',
+  title: 'Mercapeças — Guia',
   tagline: 'Manual Operacional de Processos, Garantia e Devolução',
-  favicon: 'img/logo.svg',
+  favicon: 'img/favicon-48x48.png',
 
   url: 'http://localhost',
   baseUrl: '/',
 
   organizationName: 'Mercapeças',
-  projectName: 'documentacao-interna',
+  projectName: 'guia',
 
   onBrokenLinks: 'throw',
   markdown: {
@@ -67,18 +67,12 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'MERCAPEÇAS | Documentação Interna',
+        title: 'MERCAPEÇAS | Guia',
         logo: {
           alt: 'Mercapeças Logo',
-          src: 'img/logo.svg',
+          src: 'img/favicon-48x48.png',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Navegar na Documentação',
-          },
           {
             to: '/docs/garantia',
             label: 'Garantia',
@@ -103,7 +97,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} Mercapeças - Casa do Mercedes. Documentação Interna Reservada.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Mercapeças - Casa do Mercedes. Guia Reservado.`,
       },
       prism: {
         theme: prismThemes.github,
