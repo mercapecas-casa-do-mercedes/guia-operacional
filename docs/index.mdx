@@ -13,55 +13,42 @@ Esta plataforma centraliza todos os procedimentos operacionais padrão da Mercap
 
 ---
 
-## Estrutura do Guia
+## Como Funciona o passo a passo
 
-Para facilitar a leitura e consulta rápida durante o atendimento, os procedimentos foram estruturados da seguinte forma:
+Para facilitar a leitura e saber exatamente em qual caminho você está, nosso guia utiliza uma estrutura de **passos ramificados**. A lógica funciona como uma árvore de decisões (onde preservamos o histórico do passo pai, passo avô, etc.):
 
-```text
-Guia
-│
-├── 📞 Canais de Comunicação (Vendas, Atendimento Geral e Garantia)
-│
-├── 📖 Glossário (Termos e Definições A-Z)
-│
-├── 🔄 Devolução
-│   ├── Visão Geral
-│   ├── Pessoa Física
-│   └── Pessoa Jurídica
-│       ├── Consumidor Final
-│       └── Revendedor
-│
-└── 🛡️ Garantia
-    ├── Visão Geral
-    ├── Pessoa Física
-    └── Pessoa Jurídica
-        ├── Consumidor Final
-        └── Revendedor
-```
+### Exemplo Didático: **Preparar um Lanche**
 
----
+* **Passo 1:** Pegar o pão. *(Comum)*
+* **Passo 2:** Passar manteiga. *(Comum)*
+* **Passo 3:** Escolher o tipo de lanche. *(Doce ou Salgado?)*
 
-## Como Utilizar os Recursos Expansíveis
+  Como o **Passo 3** depende de uma escolha, ele inicia uma ramificação:
 
-Nosso guia prioriza a **leitura seletiva**. As páginas de procedimentos operacionais possuem **seções expansíveis (accordions)** para que você veja apenas o passo necessário.
+  * 🍓 **Se escolheu Doce**
 
-<ExpandAllControls />
+    * **Passo 3.1:** Passar geleia. *(Passo Pai: 3 | Passo Atual: .1)*
+    * **Passo 3.2:** Fechar o lanche doce. *(Passo Pai: 3 | Passo Atual: .2)*
 
-<DocAccordion title="Recursos Globais de Leitura" stepNumber="💡" id="dica-recursos">
+  * 🧀 **Se escolheu Salgado**
 
-* **Expandir todos**: Abre todas as etapas do procedimento de uma só vez para leitura corrida.
-* **Recolher todos**: Fecha todas as etapas para manter a tela limpa e focar em uma etapa específica.
-* **Barra de Pesquisa**: Localizada no cabeçalho superior. Digite termos como `NFe`, `Espelho` ou `Requisitos` para ser direcionado diretamente ao procedimento.
+    Como o lanche salgado exige uma nova escolha, inicia-se uma segunda ramificação:
 
-</DocAccordion>
+    * 🟡 **Opção: Queijo**
+
+      * **Passo 3.1.1:** Cortar o queijo. *(Passo Avô: 3 | Passo Pai: .1 | Passo Atual: .1)*
+      * **Passo 3.1.2:** Derreter o queijo. *(Passo Avô: 3 | Passo Pai: .1 | Passo Atual: .2)*
+      * **Passo 3.1.3:** Fechar o pão. *(Passo Avô: 3 | Passo Pai: .1 | Passo Atual: .3)*
+
+    * 🔴 **Opção: Presunto**
+
+      * **Passo 3.2.1:** Dobrar o presunto. *(Passo Avô: 3 | Passo Pai: .2 | Passo Atual: .1)*
+      * **Passo 3.2.2:** Colocar no pão. *(Passo Avô: 3 | Passo Pai: .2 | Passo Atual: .2)*
+
+
+### Como Ler o Código do Passo
+* **Prefixos (Passo Pai e Passo Avô):** Mostram de qual decisão você veio (ex: o `3.1` no passo `3.1.2`).
+* **Último número:** Mostra qual tarefa exata você deve fazer agora (ex: o `2` no passo `3.1.2`).
+
 
 ---
-
-## Navegação Rápida
-
-Selecione abaixo o departamento desejado para iniciar a consulta:
-
-- [🛡️ **Procedimentos de Garantia**](/docs/garantia)
-- [🔄 **Procedimentos de Devolução**](/docs/devolucao)
-- [📖 **Glossário de Termos Operacionais**](/docs/glossario)
-- [📞 **Canais de Comunicação Direta**](/docs/canais-de-comunicacao)
