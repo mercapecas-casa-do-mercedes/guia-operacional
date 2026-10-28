@@ -10,9 +10,9 @@
 
 :root {
   --ifm-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --ifm-color-primary: #2542c2;
-  --ifm-color-primary-dark: #212faf;
-  --ifm-color-primary-darker: #1f43a5;
+  --ifm-color-primary: #001264;
+  --ifm-color-primary-dark: #af2121;
+  --ifm-color-primary-darker: #0e2974;
   --ifm-color-primary-darkest: #1a3788;
   --ifm-color-primary-light: #3751c7;
   --ifm-color-primary-lighter: #4055ca;
@@ -24,8 +24,8 @@
 
 /* Dark Mode Overrides */
 [data-theme='dark'] {
-  --ifm-color-primary: #254fc2;
-  --ifm-color-primary-dark: #212faf;
+  --ifm-color-primary: #3754a1;
+  --ifm-color-primary-dark: #0d1242;
   --ifm-color-primary-darker: #1f43a5;
   --ifm-color-primary-darkest: #1a3788;
   --ifm-color-primary-light: #3751c7;
