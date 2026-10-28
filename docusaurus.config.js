@@ -87,6 +87,12 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'stSidebar',
+            label: 'Guia de Recolhimento ST',
+            position: 'left',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'glossarioSidebar',
             label: 'Glossário',
             position: 'left',
@@ -97,6 +103,7 @@ const config = {
             label: 'Canais de Contato',
             position: 'left',
           },
+             
         ],
       },
       footer: {

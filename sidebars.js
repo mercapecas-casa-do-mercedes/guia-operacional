@@ -90,6 +90,13 @@ const sidebars = {
       label: '📞 Canais de Comunicação',
     },
   ],
+  stSidebar: [
+    {
+      type: 'doc',
+      id: 'emissao-guia-recolhimento-st/index',
+      label: '🧾 Guia de Recolhimento ST',
+    },
+  ],
 };
 
 export default sidebars;
