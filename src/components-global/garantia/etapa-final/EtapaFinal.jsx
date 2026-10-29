@@ -1,5 +1,5 @@
 import React from 'react';
-import DocAccordion from '@site/src/components/DocAccordion/DocAccordion';
+import DocAccordion from '@site/src/components-global/DocAccordion/DocAccordion';
 
 export default function EtapaFinal() {
   return (

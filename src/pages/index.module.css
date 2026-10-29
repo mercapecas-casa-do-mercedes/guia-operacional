@@ -1,16 +1,49 @@
 .heroHeader {
-  background: var(--ifm-color-primary);
-  color: #ffffff;
+  position: relative;
   padding: 4rem 0 4.5rem;
   text-align: center;
-  position: relative;
   overflow: hidden;
+  color: #ffffff;
+  background-color: #000B58; /* Cor de fallback caso a imagem demore a carregar */
+  min-height: 480px;
+  display: flex;
+  align-items: center;
 }
 
 [data-theme='dark'] .heroHeader {
-  background: var(--ifm-background-surface-color);
+  background-color: var(--ifm-background-surface-color);
   border-bottom: 1px solid var(--ifm-color-emphasis-200);
 }
+
+/* NOVA CLASSE: Configura a imagem */
+.heroBackground {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+/* NOVA CLASSE: Escurece a imagem para o texto branco aparecer bem */
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 10, 88, 0.336) 0%,   /* Azul escuro transparente */
+    rgba(0, 10, 88, 0.151) 100%
+  );
+  z-index: 1;
+}
+
+/* NOVA CLASSE: Joga o texto para frente da imagem */
+.heroContent {
+  position: relative;
+  z-index: 2;
+}
+
+
 
 .heroBadge {
   display: inline-block;

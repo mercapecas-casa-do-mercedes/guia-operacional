@@ -1,18 +1,31 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useBaseUrl from '@docusaurus/useBaseUrl'; // <-- Importante para achar a imagem
 import Layout from '@theme/Layout';
 import styles from './index.module.css';
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
+  const bgImage = useBaseUrl('/img/capa-neon.png');
+
   return (
     <Layout
       title="Início"
       description="Manual de Processos Operacionais da Mercapeças"
     >
       <header className={styles.heroHeader}>
-        <div className="container">
+        {/* Camada da Imagem de Fundo */}
+        <div
+          className={styles.heroBackground}
+          style={{ backgroundImage: `url(${bgImage})` }}
+          aria-hidden="true"
+        />
+        {/* Camada escura para dar contraste ao texto */}
+        <div className={styles.heroOverlay} aria-hidden="true" />
+
+        {/* Conteúdo de texto (fica acima da imagem) */}
+        <div className={`container ${styles.heroContent}`}>
           <div className={styles.heroBadge}>GUIA OFICIAL</div>
           <h1 className={styles.heroTitle}>{siteConfig.title}</h1>
           <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
