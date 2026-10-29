@@ -22,7 +22,7 @@ export function useFlowLayout(data) {
       resp2: { x: 340, y: 400 },
       subs: { x: 740, y: 400 },
       copia: { x: 540, y: 580 },
-      sem_guia: { x: 840, y: 580 },
+      sem_guia: { x: 950, y: 580 },
     };
 
     const nodes = rawNodes.map((rawNode, index) => {
