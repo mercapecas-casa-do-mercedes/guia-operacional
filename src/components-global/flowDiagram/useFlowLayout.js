@@ -1,5 +1,5 @@
-import { useMemo } from 'react';
-import { MarkerType } from 'reactflow';
+import { useMemo } from "react";
+import { MarkerType } from "reactflow";
 
 /**
  * Hook que calcula posições automáticas e gera as conexões (edges)
@@ -21,8 +21,8 @@ export function useFlowLayout(data) {
       dest: { x: 580, y: 220 },
       resp2: { x: 340, y: 400 },
       subs: { x: 740, y: 400 },
-      copia: { x: 540, y: 580 },
-      sem_guia: { x: 950, y: 580 },
+      copia: { x: 540, y: 600 },
+      sem_guia: { x: 950, y: 600 },
     };
 
     const nodes = rawNodes.map((rawNode, index) => {
@@ -37,17 +37,17 @@ export function useFlowLayout(data) {
           id: `e-${rawNode.id}-${rawNode.data.yesTarget}`,
           source: rawNode.id,
           target: rawNode.data.yesTarget,
-          sourceHandle: 'sim',
-          label: 'SIM',
+          sourceHandle: "sim",
+          label: "SIM",
           animated: true,
-          style: { stroke: '#059669', strokeWidth: 2 },
-          labelStyle: { fill: '#047857', fontWeight: 800, fontSize: 11 },
-          labelBgStyle: { fill: '#ecfdf5', fillOpacity: 0.95 },
+          style: { stroke: "#059669", strokeWidth: 2 },
+          labelStyle: { fill: "#047857", fontWeight: 800, fontSize: 11 },
+          labelBgStyle: { fill: "#ecfdf5", fillOpacity: 0.95 },
           labelBgPadding: [6, 3],
           labelBgBorderRadius: 4,
           markerEnd: {
             type: MarkerType.ArrowClosed,
-            color: '#059669',
+            color: "#059669",
             width: 16,
             height: 16,
           },
@@ -59,17 +59,17 @@ export function useFlowLayout(data) {
           id: `e-${rawNode.id}-${rawNode.data.noTarget}`,
           source: rawNode.id,
           target: rawNode.data.noTarget,
-          sourceHandle: 'nao',
-          label: 'NÃO',
+          sourceHandle: "nao",
+          label: "NÃO",
           animated: false,
-          style: { stroke: '#dc2626', strokeWidth: 2 },
-          labelStyle: { fill: '#b91c1c', fontWeight: 800, fontSize: 11 },
-          labelBgStyle: { fill: '#fef2f2', fillOpacity: 0.95 },
+          style: { stroke: "#dc2626", strokeWidth: 2 },
+          labelStyle: { fill: "#b91c1c", fontWeight: 800, fontSize: 11 },
+          labelBgStyle: { fill: "#fef2f2", fillOpacity: 0.95 },
           labelBgPadding: [6, 3],
           labelBgBorderRadius: 4,
           markerEnd: {
             type: MarkerType.ArrowClosed,
-            color: '#dc2626',
+            color: "#dc2626",
             width: 16,
             height: 16,
           },

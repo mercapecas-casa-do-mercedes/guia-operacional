@@ -3,7 +3,7 @@ import DocAccordion from '@site/src/components-global/DocAccordion/DocAccordion'
 import DocAccordionInner from '@site/src/components-global/DocAccordion/DocAccordionInner/DocAccordionInner';
 import ExpandAllControls from '@site/src/components-global/DocAccordion/ExpandAllControls';
 import ImageLightbox from '@site/src/components-global/ImageLightbox/ImageLightbox';
-import EmissaoGuiaST from '@site/src/components-global/emissao-guia-recolhimento-st/EmissaoGuiaST';
+import FlowDiagramEmissaoGuiaST from '@site/src/components-global/emissao-guia-recolhimento-st/FlowDiagramEmissaoGuiaST';
 import { TabelaIcmsButton } from '@site/src/components-features/emissao-guia-recolhimento-st';
 
 export default {
@@ -12,6 +12,6 @@ export default {
   DocAccordionInner,
   ExpandAllControls,
   ImageLightbox,
-  EmissaoGuiaST,
+  FlowDiagramEmissaoGuiaST,
   TabelaIcmsButton,
 };
